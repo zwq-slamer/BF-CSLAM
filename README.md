@@ -5,8 +5,6 @@ This repository contains an implementation of our **bandwidth-optimized collabor
 
 To address this challenge, we propose a **mutual-information-based keyframe selection strategy** that transmits only the **most informative** visual keyframes, **significantly reducing redundant data**. Furthermore, we apply **finite-state entropy coding** for **lossless compression**, further minimizing transmission costs.
 
-**Experiments** on public datasets and real-world environments demonstrate that our approach achieves a **78% reduction in bandwidth usage** compared to **state-of-the-art** centralized multi-robot SLAM methods, while **maintaining high-precision localization and mapping performance**.
-
 Since this work is **integrated into COVINS**, it can be **easily adopted** by users familiar with COVINS and **seamlessly incorporated into existing SLAM pipelines**, enabling **better scalability** and **reduced wireless communication load** in practical deployments.
 ![Syatem overview](docs/Fig1.png)
 
